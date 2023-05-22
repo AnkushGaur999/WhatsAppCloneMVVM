@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/main_camera"
+        android:title="@string/camera"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/photo_camera"/>
+
+    <item
+        android:id="@+id/main_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_search_24"/>
+
+    <item
+        android:id="@+id/main_new_group"
+        android:title="@string/new_group"
+        app:showAsAction="never"
+        android:icon="@drawable/more_vert"/>
+
+    <item
+        android:id="@+id/main_new_broadcast"
+        android:title="@string/new_broadcast"
+        app:showAsAction="never"
+        android:icon="@drawable/more_vert"/>
+
+    <item
+        android:id="@+id/main_linked_device"
+        android:title="@string/linked_device"
+        app:showAsAction="never"
+        android:icon="@drawable/more_vert"/>
+
+    <item
+        android:id="@+id/main_starred_message"
+        android:title="@string/starred_message"
+        app:showAsAction="never"
+        android:icon="@drawable/more_vert"/>
+
+    <item
+        android:id="@+id/main_payment"
+        android:title="@string/payment"
+        app:showAsAction="never"
+        android:icon="@drawable/more_vert"/>
+
+    <item
+        android:id="@+id/main_setting"
+        android:title="@string/setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/more_vert"/>
+
+
+</menu>
